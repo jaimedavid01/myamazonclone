@@ -10,6 +10,11 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+    transition: transform .3s ease;
+}
+
+.product:hover {
+     transform: scale(1.04);;
 }
 
 .product > img {

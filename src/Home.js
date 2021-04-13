@@ -11,16 +11,41 @@ import monitor from "./img/monitor.jpg";
 import jacket from "./img/jacket.jpg";
 import pants from "./img/pants.jpg";
 import chair from "./img/chair.jpg";
+import Slide1 from "./img/Slider1.jpeg"
+import Slide2 from "./img/Slider2.jpeg"
+import Slide3 from "./img/Slider3.jpeg"
+import Slide4 from "./img/Slider4.jpeg"
 
 function Home() {
     return (
         <div className="home">
             <div className="home__container">
-                <img
-                className="home__image"
-                src={home}
-                alt=""
-                />
+                
+                    <div id="slider">
+                        <div>
+                         <img src={home} alt="" />
+                        </div>
+
+
+                        <div>
+                        <img src={Slide2} alt=""/>
+                        </div>
+
+                        <div>
+                        <img src={Slide1} alt=""/>
+                        </div>
+                        
+                        <div>
+                        <img src={Slide3} alt=""/>
+                        </div>
+
+                        <div>
+                        <img src={Slide4} alt=""/>
+                        </div>
+
+                    </div>
+
+                
 
             <div className="home__row">
                 <Product 

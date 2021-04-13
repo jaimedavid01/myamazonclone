@@ -144,7 +144,7 @@ function Footer() {
             className='footer__logo' 
             src={Logo1}/>
             <footer>
-        <span>Created By <a href="#">Jaime David</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By <a href="#">Jaime David</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
   </div>
     )
